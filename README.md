@@ -7,7 +7,7 @@ O código aqui presente é apenas a versão exportada pelo Vite. Para o projeto 
 
 O projeto foi desenvolvido utilizando:
 - **Vite** como Servidor de desenvolvimento, com o comando `npm run dev` rodando é possível visualizar em tempo real as mudanças no frontend. O Vite também serviu de Compilador de Vue.js e TailwindCSS, além é claro do seu papel como Bundler, empacotando o projeto para produção com o comando `npm run build`.
-- **Vue.js 3** foi utilizado visando criar componentes rápidos, pois queria que o projeto tivesse design 'one-page'. Atrelado a escolha do Vue vem do gerenciador de estado Pinia que permite mockar o sistema de login, carrinho de compras, estoque, pedidos e todos os outros sistemas que deveriam ser demonstrados, sem a necessidade de um backend real.
+- **Vue.js 3** foi utilizado visando criar componentes rápidos, pois queria que a página da loja fosse *SPA* (Single Page Application). Atrelado a escolha do Vue vem o gerenciador de estado *Pinia* que permitiu mockar o sistema de login, carrinho de compras, estoque, pedidos e todos os outros sistemas que deveriam ser demonstrados, sem a necessidade de um backend real.
 - **Tailwind CSS v4** permitiu uma criação ágil dos elementos da página e, por conta do seu viés mobile first, facilitou a portabilidade do sistema para mobile.
 - **daisyUI v5** foi escolhido como a biblioteca de componentes neste projeto por conta da sua integração com o tailwind e o VueJS, além claro de permitir a personalização dos seus componentes que já são bem feitos.
 
